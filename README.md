@@ -47,7 +47,7 @@ Figure -02 HALF Subtractor
 
 5.	For different input combinations generate the timing diagram.
 
-
+***Half Adder***
 **Program:**
 
 ![image](https://github.com/Abishai95141/HALF_ADDER_SUBTRACTOR/assets/139335314/b1a4cf95-9a40-4224-8e5c-bf0201525c4a)
@@ -63,7 +63,10 @@ Developed by:ABISHAI K C RegisterNumber:212223240002
 ![image](https://github.com/Abishai95141/HALF_ADDER_SUBTRACTOR/assets/139335314/986f0296-a721-4056-9638-32f7e0ddcbbc)
 
 **Output/TIMING Waveform**
-***Half Adder***
+
+![image](https://github.com/Abishai95141/HALF_ADDER_SUBTRACTOR/assets/139335314/0d5f3aef-d813-4d6b-83e3-fb9ed8f9e3c7)
+
+**HALF SUBTRACTOR**
 **Program**
 
 ![image](https://github.com/Abishai95141/HALF_ADDER_SUBTRACTOR/assets/139335314/a1c56c7b-e496-45f5-afb6-de3e56c9647a)
