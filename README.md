@@ -50,36 +50,36 @@ Figure -02 HALF Subtractor
 
 **Program:**
 
-```
-*Half_adder*
-module halfadd_top(a,b,sum,carry);
-input a,b;
-output sum,carry; 
- assign sum = a^b;
- assign carry = a & b;
-endmodule
-
-*Half_subtractor*
-module halfsub_top(a,b,D,Bo);
-input a,b;
-output D,Bo; // Outputs sum and carry for half adder:Outputs difference D,Borrow Bo for half subtractor
-assign D = a ^ b;
-  assign Bo = ~a & b;
-endmodule
-
-```
+![image](https://github.com/Abishai95141/HALF_ADDER_SUBTRACTOR/assets/139335314/b1a4cf95-9a40-4224-8e5c-bf0201525c4a)
 
 Developed by:ABISHAI K C RegisterNumber:212223240002
 
 **RTL Schematic**
-![image](https://github.com/Abishai95141/HALF_ADDER_SUBTRACTOR/assets/139335314/cadb047a-3d7c-4739-a301-987e86ffd76e)
+
+![image](https://github.com/Abishai95141/HALF_ADDER_SUBTRACTOR/assets/139335314/20e1b5fb-8428-482b-b9f5-151c87e6d1c2)
+
+**Truthtable**
+
+![image](https://github.com/Abishai95141/HALF_ADDER_SUBTRACTOR/assets/139335314/986f0296-a721-4056-9638-32f7e0ddcbbc)
 
 **Output/TIMING Waveform**
 ***Half Adder***
-![image](https://github.com/Abishai95141/HALF_ADDER_SUBTRACTOR/assets/139335314/3756f5b5-3233-4e69-a522-9bf01c8875c1)
+**Program**
 
-***Half Subtracter***
-![image](https://github.com/Abishai95141/HALF_ADDER_SUBTRACTOR/assets/139335314/86c70519-a1fc-4bc9-a2e9-59de72df0cd2)
+![image](https://github.com/Abishai95141/HALF_ADDER_SUBTRACTOR/assets/139335314/a1c56c7b-e496-45f5-afb6-de3e56c9647a)
+
+
+**RTL Schematic**
+
+![image](https://github.com/Abishai95141/HALF_ADDER_SUBTRACTOR/assets/139335314/9380b318-90d3-4b4a-b226-f43917a2a2ff)
+
+**Truthtable**
+
+![image](https://github.com/Abishai95141/HALF_ADDER_SUBTRACTOR/assets/139335314/378b4776-cce3-4ce7-8cdb-8e0e8993a90a)
+
+**Output/TIMING Waveform**
+
+![image](https://github.com/Abishai95141/HALF_ADDER_SUBTRACTOR/assets/139335314/42353123-68dd-4bf2-b22d-83ca1856a48f)
 
 **Result:**
 The code is excecuted successfully.
